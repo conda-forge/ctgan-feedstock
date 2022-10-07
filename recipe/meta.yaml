@@ -1,5 +1,5 @@
 {% set name = "ctgan" %}
-{% set version = "0.5.2" %}
+{% set version = "0.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ctgan-{{ version }}.tar.gz
-  sha256: 20ecdf72216a864b2287cb2340ea77d65255923115d95a62dac4a4ec12b70759
+  sha256: 13b96b58ccbe8dba77df0ce53d30ef5f46c33f0389b22e407ce6babe2ba5bc7c
 
 build:
   number: 0
