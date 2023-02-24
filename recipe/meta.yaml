@@ -1,5 +1,5 @@
 {% set name = "ctgan" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ctgan-{{ version }}.tar.gz
-  sha256: 82b1bf7c46655b09f7c606ce64c9c3a37eb5d423be55ed59da3de1c6b6b41d4b
+  sha256: a32a86bda8cb5b4df41558f64ad5c7623399428ab41e90609a66b90052ccf717
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
     - python >=3.7,<3.11
     - rdt >=1.3.0,<2
     - scikit-learn >=1.1.3,<2
-    - pytorch >=1.4,<2
+    - pytorch >=1.8,<2
     - torchvision >=0.5.0,<1
 
 test:
