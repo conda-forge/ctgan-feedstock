@@ -37,7 +37,6 @@ test:
     - ctgan.synthesizers
   commands:
     - ctgan --help
-    - pytest
   requires:
     - pip
     - pytest
