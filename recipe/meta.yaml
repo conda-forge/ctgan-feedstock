@@ -41,9 +41,6 @@ test:
   requires:
     - pip
     - pytest
-  source_files:
-    - tests/unit
-    - tests/integration
 
 about:
   home: https://github.com/sdv-dev/CTGAN
