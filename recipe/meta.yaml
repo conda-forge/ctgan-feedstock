@@ -35,6 +35,7 @@ test:
   imports:
     - ctgan
     - ctgan.synthesizers
+    - tasks
   commands:
     - ctgan --help
     - pytest
