@@ -35,7 +35,6 @@ test:
   imports:
     - ctgan
     - ctgan.synthesizers
-    - tasks
   commands:
     - ctgan --help
     - pytest
@@ -43,7 +42,8 @@ test:
     - pip
     - pytest
   source_files:
-    - tests
+    - tests/unit
+    - tests/integration
 
 about:
   home: https://github.com/sdv-dev/CTGAN
