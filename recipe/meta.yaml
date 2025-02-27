@@ -1,5 +1,5 @@
 {% set name = "ctgan" %}
-{% set version = "0.10.2" %}
+{% set version = "0.11.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ctgan-{{ version }}.tar.gz
-  sha256: e696fcb52c1591e589498eb42ff3d465bfd9052dadb75ee0eef85993ee0d358e
+  sha256: dd08b02370d375663f282f020d1729ee80e4b16bf27a61c82156bfe690c2092b
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - ctgan=ctgan.__main__:main
@@ -25,9 +25,9 @@ requirements:
   run:
     - numpy >=1.21.0,<2
     - pandas >=1.4.0
-    - python >={{ python_min }},<3.13
-    - pytorch >=1.9
-    - rdt >=1.11.0
+    - python >={{ python_min }},<3.14
+    - pytorch >=1.13.0
+    - rdt >=1.14.0
     - tqdm >=4.29,<5
 
 test:
