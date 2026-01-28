@@ -24,12 +24,12 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - numpy >=1.21.0,<2
+    - numpy >=1.21.0
     - pandas >=1.4.0
-    - python >={{ python_min }},<3.14
+    - python >={{ python_min }},<3.15
     - pytorch >=1.13.0
     - rdt >=1.14.0
-    - tqdm >=4.29,<5
+    - tqdm >=4.29
 
 test:
   imports:
